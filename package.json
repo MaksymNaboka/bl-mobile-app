@@ -9,12 +9,8 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
-    "prepare": "husky && husky install",
-    "husky": "node ./.husky/pre-commit",
     "lint": "expo lint",
-    "lint:fix": "eslint --fix .",
-    "prettier": "prettier --check .",
-    "prettier:fix": "prettier --write ."
+    "prepare": "husky"
   },
   "jest": {
     "preset": "jest-expo"
